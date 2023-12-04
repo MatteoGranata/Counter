@@ -128,3 +128,58 @@ buttonReset.onclick = function () {
     notice.innerHTML = `azione annullata`
   };
 }
+
+// cursor effect
+window.addEventListener("mousemove", function (e) {
+  const x = e.clientX;
+  const y = e.clientY;
+
+  cursorDot.style.left = `${x}px`;
+  cursorDot.style.top = `${y}px`;
+  cursorOutline.style.left = `${x}px`;
+  cursorOutline.style.top = `${y}px`;
+
+  cursorOutline.animate({
+    left: `${x}px`,
+    top: `${y}px`
+  }, { duration: 80, fill: "forwards" });
+
+});
+
+document.addEventListener("mousedown", function (e) {
+
+  cursorOutline.style.width = `${3}vh`;
+  cursorOutline.style.height = `${3}vh`;
+  cursorDot.style.width = `${1}vh`;
+  cursorDot.style.height = `${1}vh`;
+
+  cursorOutline.animate({
+    width: `${5}vh`,
+    height: `${5}vh`
+  },
+    {
+      duration: 200, fill: "forwards"
+    })
+
+  cursorDot.animate({
+    width: `${1.5}vh`,
+    height: `${1.5}vh`
+  },
+    {
+      duration: 50, fill: "forwards"
+    })
+    cursorOutline.animate({
+      width: `${3}vh`,
+      height: `${3}vh`
+    }, {
+      duration: 200, fill: "forwards"
+  
+    })
+    cursorDot.animate({
+      width: `${1}vh`,
+      height: `${1}vh`
+    }, {
+      duration: 50, fill: "forwards"
+  
+    })
+});
