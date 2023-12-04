@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: none;
+}
+
+body {
+    color: #e2b6ff;
+    background: #00051c;
+    font-family: 'Raleway', sans-serif;
+}
+
+.cursor {
+    width: 1vh;
+    height: 1vh;
+    background-color: #e2b6ff;
+}
+
+.outline {
+    width: 3vh;
+    height: 3vh;
+    border: 2px solid #e2b6ff;
+}
+
+.cursor,
+.outline {
+    position: fixed;
+    top: -220px;
+    left: -220px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    margin: 2%;
+    width: 90%;
+}
+
+.title {
+    width: fit-content;
+    font-size: 3.5rem;
+}
+
+.noticeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.notice {
+    width: fit-content;
+    font-size: 3.5vh;
+    text-align: center;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+    width: 90%;
+}
+
+.decrease,
+.increase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e2b6ff6b;
+    height: 60px;
+    width: 110px;
+    margin: 10px;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #e2b6ff;
+    border-radius: 8px;
+    transition: all 0.4s ease;
+    border: none;
+}
+
+.reset,
+.confirm,
+.delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e2b6ff6b;
+    height: 60px;
+    width: 130px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #e2b6ff;
+    border-radius: 8px;
+    transition: all 0.4s ease;
+    border: none;
+    text-align: center;
+}
+
+.confirm,
+.delete {
+    display: none;
+}
+
+.security {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+
+
+.decrease:hover,
+.increase:hover {
+    box-shadow: 0 0 5px #e2b6ff;
+    font-size: 4rem;
+}
+
+.reset:hover,
+.confirm:hover,
+.delete:hover {
+    box-shadow: 0 0 5px #e2b6ff;
+    font-size: 1.6rem;
+}
+
+.result {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    font-size: 10vh;
+    color: #e2b6ff;
+}
+
+@media (max-width: 500px) {
+    .cursor,
+    .outline {
+        display: none;
+    }
+}
