@@ -56,7 +56,7 @@ body {
 
 .title {
     width: fit-content;
-    font-size: 3.5rem;
+    font-size: 4.5vw;
 }
 
 .noticeContainer {
@@ -99,9 +99,7 @@ body {
     border: none;
 }
 
-.reset,
-.confirm,
-.delete {
+.reset {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,6 +118,20 @@ body {
 
 .confirm,
 .delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e2b6ff6b;
+    height: 60px;
+    width: 130px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #e2b6ff;
+    border-radius: 8px;
+    transition: all 0.4s ease;
+    border: none;
+    text-align: center;
     display: none;
 }
 
@@ -133,14 +145,14 @@ body {
 .decrease:hover,
 .increase:hover {
     box-shadow: 0 0 5px #e2b6ff;
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 
 .reset:hover,
 .confirm:hover,
 .delete:hover {
     box-shadow: 0 0 5px #e2b6ff;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
 
 .result {
@@ -154,8 +166,19 @@ body {
 }
 
 @media (max-width: 500px) {
+    *{
+        cursor: default;
+    }
     .cursor,
     .outline {
         display: none;
     }
+    .title {
+        width: fit-content;
+        font-size: 10.5vw;
+    }
+    .titleContainer, .noticeContainer {
+        margin: 20%;
+    }
+ 
 }

@@ -54,10 +54,10 @@ noticeContainer.appendChild(notice);
 const securityContainer = createElement('div', "security", "");
 noticeContainer.appendChild(securityContainer);
 
-const confirmButton = createElement('button', "confirm", "CONFIRM");
+const confirmButton = createElement('button', "confirm", "CONFERMA");
 securityContainer.appendChild(confirmButton);
 
-const deleteButton = createElement('button', "delete", "CANCEL");
+const deleteButton = createElement('button', "delete", "ANNULLA");
 securityContainer.appendChild(deleteButton);
 
 
@@ -125,7 +125,7 @@ buttonReset.onclick = function () {
   deleteButton.onclick = function () {
     confirmButton.style.display = 'none'
     deleteButton.style.display = 'none'
-    notice.innerHTML = `azione annullata`
+    notice.innerHTML = `Azione annullata`
   };
 }
 
