@@ -1,6 +1,5 @@
-<video src="assets/img/registrazione-counter.mp4" controls title="Title"></video>
 
-# WebApp
+# COUNTER
 <table>
 <tr>
 <td>
@@ -11,7 +10,8 @@ Using exclusively JavaScript and CSS, this website provides a straightforward an
 
 
 ## Demo
-Here is a working live demo : matteogranata.github.io/Counter/ <br>
+Live demo:<a href="https://matteogranata.github.io/Counter/" target="_blank">HERE</a>.</h4>
+<br>
 ![](https://komarev.com/ghpvc/?username=MatteoGranata&color=dc143c&style=flat-square)
 
 ## Site
