@@ -3,29 +3,29 @@
 <table>
 <tr>
 <td>
-Using exclusively JavaScript and CSS, this website provides a straightforward and intuitive experience for counting and monitoring your numbers. The three dedicated buttons allow you to increase, decrease, and reset the numerical value, offering a clean and simple interface for managing your counts. 
+Utilizzando esclusivamente JavaScript e CSS, questo sito offre un'esperienza semplice e intuitiva per contare e monitorare i tuoi numeri. I tre pulsanti dedicati consentono di incrementare, decrementare e resettare il valore numerico, fornendo un'interfaccia pulita e semplice per gestire le tue contabilità. 
 </td>
 </tr>
 </table>
 
 
 ## Demo
-Live demo:<a href="https://matteogranata.github.io/Counter/" target="_blank">HERE</a>.</h4>
+Live demo: <a href="https://matteogranata.github.io/Counter/" target="_blank">HERE</a>.</h4>
 <br>
 ![](https://komarev.com/ghpvc/?username=MatteoGranata&color=dc143c&style=flat-square)
 
-## Site
+## Sito
 
 ### Home Page
 Ho voluto creare una homepage minimalista al fine di renderla chiara e concisa. I colori utilizzati sono gli stessi presenti nel mio portfolio, garantendo continuità e conferendo al progetto la mia identità.
 
 ![](https://i.postimg.cc/L6q3MRMx/counter-screen.png)
 
-### structure
+### Struttura
 La pagina è strutturata verticalmente e presenta tre pulsanti nella parte inferiore (+, -, reset). Al di sotto dei pulsanti è presente una scritta che appare quando si resetta il contatore o ogni volta che si raggiungono numeri multipli di 10, sia negativi che positivi. Premendo il pulsante reset, compariranno altri due pulsanti di conferma. Il cursore è stato modificato tramite JavaScript, diventando due cerchi animati sia al clic che al movimento del mouse sulla finestra.
 
 
-### instructions:
+### Istruzioni
 **Istruzioni per l'uso: Contatore Interattivo**
 
 1. **Incrementare il Valore:**
@@ -41,10 +41,10 @@ La pagina è strutturata verticalmente e presenta tre pulsanti nella parte infer
 4. **Monitoraggio dei Progressi:**
    - Sotto i pulsanti, troverai un avviso che tiene traccia dei progressi compiuti. Utilizza questa sezione per monitorare attentamente le variazioni nel valore del contatore.
 
-## Built with 
+## Realizzato con: 
 
-- [jQuery - Ajax](http://www.w3schools.com/jquery/jquery_ref_ajax.asp) - jQuery simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.
-- [Google Chart API](https://developers.google.com/chart/interactive/docs/quick_start) - Free , Rich Gallery , Customizable and Cross-browser compatible.
-- [Bootstrap](http://getbootstrap.com/) - Extensive list of components and  Bundled Javascript plugins.
+- [CSS]
+- [JavaScript]
+
 
 
