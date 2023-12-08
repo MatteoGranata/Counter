@@ -1,4 +1,5 @@
-# ![WebApp](./assets/img/registrazione-counter.mp4)
+<img src="./assets/img/registrazione-counter.mp4">
+
 # WebApp
 <table>
 <tr>
@@ -11,7 +12,7 @@ Using exclusively JavaScript and CSS, this website provides a straightforward an
 
 ## Demo
 Here is a working live demo :  https://matteogranata.github.io/Counter/ <br>
-![](https://komarev.com/ghpvc/?username=MatteoGranata&color=flat-square)
+![](https://komarev.com/ghpvc/?username=MatteoGranata&color=dc143c&style=flat-square)
 
 ## Site
 
