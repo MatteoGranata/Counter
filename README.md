@@ -12,7 +12,7 @@ Utilizzando esclusivamente JavaScript e CSS, questo sito offre un'esperienza sem
 ## Demo
 Live demo: <a href="https://matteogranata.github.io/Counter/" target="_blank">HERE</a>.</h4>
 <br>
-![](https://komarev.com/ghpvc/?username=MatteoGranata&color=dc143c&style=flat-square)
+![](https://komarev.com/ghpvc/?username=MatteoGranata&color=e2b6ff&style=flat-square)
 
 ## Sito
 
