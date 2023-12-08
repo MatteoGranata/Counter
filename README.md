@@ -1,4 +1,4 @@
-<img src="./assets/img/registrazione-counter.mp4">
+<video src="assets/img/registrazione-counter.mp4" controls title="Title"></video>
 
 # WebApp
 <table>
@@ -11,7 +11,7 @@ Using exclusively JavaScript and CSS, this website provides a straightforward an
 
 
 ## Demo
-Here is a working live demo :  https://matteogranata.github.io/Counter/ <br>
+Here is a working live demo : matteogranata.github.io/Counter/ <br>
 ![](https://komarev.com/ghpvc/?username=MatteoGranata&color=dc143c&style=flat-square)
 
 ## Site
