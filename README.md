@@ -1,4 +1,4 @@
-# ![WebApp](https://i.postimg.cc/L6q3MRMx/counter-screen.png)
+# ![WebApp](./assets/img/registrazione-counter.mp4)
 # WebApp
 <table>
 <tr>
@@ -10,8 +10,8 @@ Using exclusively JavaScript and CSS, this website provides a straightforward an
 
 
 ## Demo
-Here is a working live demo :  https://matteogranata.github.io/Counter/
-![](https://komarev.com/ghpvc/?username=MatteoGranata&color=dc143c=flat-square)
+Here is a working live demo :  https://matteogranata.github.io/Counter/ <br>
+![](https://komarev.com/ghpvc/?username=MatteoGranata&color=flat-square)
 
 ## Site
 
